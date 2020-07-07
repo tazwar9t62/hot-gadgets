@@ -1,0 +1,40 @@
+.container {
+    margin-bottom: 50px;
+}
+
+.carousel-item {
+    padding: 10px 40px 20px;
+}
+
+.carousel-item p {
+    color: dimgray;
+}
+
+.buy-button {
+    color: white;
+    background-color: black;
+    border-radius: 8px;
+    border: none;
+    padding: 8px 20px;
+    cursor: pointer;
+}
+
+.cd a {
+    color: orange;
+    text-decoration: none;
+}
+
+.card {
+    border: none;
+    border-radius: 8px;
+    box-shadow: 10px 10px 20px lightgray;
+}
+
+.card-footer {
+    background-color: white;
+    border-top: none;
+}
+
+.card-text {
+    color: dimgray;
+}
