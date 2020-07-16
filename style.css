@@ -1,23 +1,22 @@
 body {
-    font-family: 'Poppins', ;
+  font-family: "Poppins";
 }
 
-
 .container {
-    margin-bottom: 50px;
+  margin-bottom: 50px;
 }
 
 /* Navbar */
 
 .navbar-nav li:hover {
-    border-radius: 5px;
-    background-image: linear-gradient(45deg, orange, rgb(238, 248, 100));
+  border-radius: 5px;
+  background-image: linear-gradient(45deg, orange, rgb(238, 248, 100));
 }
 
 /* Carousel */
 
 .carousel-item p {
-    color: dimgray;
+  color: dimgray;
 }
 
 /* .carousel-img {
@@ -30,85 +29,81 @@ body {
  */
 
 .carousel-indicators li {
-    background-color: #CECECE;
-    height: 10px;
-    width: 16px;
-    border-radius: 6px;
-    border: none;
+  background-color: #cecece;
+  height: 10px;
+  width: 16px;
+  border-radius: 6px;
+  border: none;
 }
 
 .carousel-indicators .active {
-    background-image: linear-gradient(45deg, orange, rgb(238, 248, 100));
-    width: 45px;
+  background-image: linear-gradient(45deg, orange, rgb(238, 248, 100));
+  width: 45px;
 }
 
 /* BUtton */
 
 .buy-button {
-    color: white;
-    background-color: black;
-    border-radius: 8px;
-    border: none;
-    padding: 8px 20px;
-    cursor: pointer;
+  color: white;
+  background-color: black;
+  border-radius: 8px;
+  border: none;
+  padding: 8px 20px;
+  cursor: pointer;
 }
 
 .buy-button:hover {
-    background-image: linear-gradient(45deg, rgb(102, 95, 95), black)
+  background-image: linear-gradient(45deg, rgb(102, 95, 95), black);
 }
-
 
 /* cards */
 
 .cd a {
-    color: orange;
-    text-decoration: none;
+  color: orange;
+  text-decoration: none;
 }
 
 .card {
-    border: none;
-    border-radius: 8px;
-    box-shadow: 10px 10px 20px lightgray;
+  border: none;
+  border-radius: 8px;
+  box-shadow: 10px 10px 20px lightgray;
 }
 
 .card-footer {
-    background-color: white;
-    border-top: none;
+  background-color: white;
+  border-top: none;
 }
 
 .card-text {
-    color: dimgray;
+  color: dimgray;
 }
-
 
 /* Categories */
 
 .underline-block {
-    width: 100px;
-    height: 8px;
-    border-radius: 10px;
-    background-image: linear-gradient(45deg, orange, rgb(238, 248, 100));
-    margin-bottom: 20px;
+  width: 100px;
+  height: 8px;
+  border-radius: 10px;
+  background-image: linear-gradient(45deg, orange, rgb(238, 248, 100));
+  margin-bottom: 20px;
 }
 
-
 .single-cat {
-    text-align: center;
-    border-radius: 20px 0 20px 0px;
+  text-align: center;
+  border-radius: 20px 0 20px 0px;
 }
 
 .single-cat h4 {
-    color: #2c2c2c;
-    margin-top: 10px;
+  color: #2c2c2c;
+  margin-top: 10px;
 }
 
 .single-cat.reverse-radious {
-    border-radius: 0 20px 0 20px;
-
+  border-radius: 0 20px 0 20px;
 }
 
 /* Footer */
 
 footer {
-    text-align: center;
+  text-align: center;
 }
